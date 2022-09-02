@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:orange;
+    color:white;
+    font-family: Bebas neue;
+}
+.p{
+    font-family: sans-serif;
+    font-size:small;
+}
+.h1,.h2
+.navbar-toggler:active{
+
+    border:none;
+    box-shadow:0;
+
+}
+.navbar-toggler:focus{
+    box-shadow:none;
+    border:none;
+
+}
+#getstarted{
+    margin-top: 3rem;
+    background-color: white;
+    color:orange;
+    width:fit-content;
+    padding:1rem;
+    border-radius:5px;
+}
+#firstanim{
+    animation: appearss 1s ease forwards;
+    opacity:0%;
+}
+@keyframes appearss{
+    0%{
+        opacity:0%;
+    }
+    25%{
+        opacity:25%;
+    }
+    50%{
+        opacity:50%;
+    }
+    75%{
+        opacity:75%;
+    }
+    100%{
+        opacity:100%;
+    }
+
+}
+#lastss{
+    background-color:orange;
+}
+.p{
+    text-align: center;
+}
+
+.imss{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.h3{
+    color:orange;
+}
+.difF{
+    position:relative;
+    top:-30px;
+
+}
+.htt{
+    font-size: small;
+}
+#dIf{
+    position:relative;
+    left:-1.4rem;
+}
+footer a{
+    text-decoration: none;
+    color:white;
+}
+
+
+footer a:hover{
+    text-decoration: underline;
+    text-decoration-color:white;
+    color: white;
+}
