@@ -94,8 +94,3 @@ footer a:hover{
     text-decoration-color:white;
     color: white;
 }
-@media (max-width:400px){
-    #iMaGes{
-        width:100;
-    }
-}
